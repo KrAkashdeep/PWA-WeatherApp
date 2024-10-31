@@ -1,0 +1,36 @@
+.main-container {
+  border-radius: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-container .search {
+  margin: 10px 0;
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.city {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.city h2 sup {
+  border-radius: 20px;
+  background-color: rgb(217, 234, 234);
+  padding: 5px;
+  color: red;
+}
+.temp h3 {
+  margin: 0;
+  font-size: 34px;
+}
+.city p {
+  margin: 0;
+  font-weight: 600;
+  font-size: large;
+}
